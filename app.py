@@ -6,11 +6,11 @@ subject = subject.st.selectbox("Избери предмет", ["Математи
 grade = grade.st.selectbox("Избери оценка"["6", "5", "4", "3", "2"])
 age = age.st.number_input("Въведи на колко години си")
 
-if "age" > 18
+if "age" > 18:
 {
   st.write("Ти не си ученик")
 }
-else 
+else:
 {
   st.write("grade")
 }
