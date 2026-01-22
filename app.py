@@ -20,4 +20,4 @@ age = st.number_input("Въведи на колко години си", min_valu
 if age > 18:
     st.write("Ти не си ученик")
 else:
-    st.write(f"Твоята оценка е: {grade}")
+    st.write("Твоята оценка е:", grade)
